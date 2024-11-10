@@ -13,7 +13,6 @@ This project leverages machine learning to detect seasonal patterns in retail sa
 - [Project Structure](#project-structure)
 - [Results](#results)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
