@@ -69,6 +69,9 @@ This project generates various insights, including:
 - Clear seasonal trends and their potential impact on sales.
 - Forecasted sales patterns for future periods.
 - Visual representations that enhance the interpretability of data and findings.
+- Accuracy: 91.36%
+![image](https://github.com/user-attachments/assets/bc81adad-0ac9-4a08-bd0c-45a135a4d3ad)
+
 
 ## Contributing
 
