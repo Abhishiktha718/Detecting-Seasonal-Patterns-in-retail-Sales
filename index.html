@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sales Forecasting</title>
+</head>
+<body>
+    <h1>Sales Forecasting Model</h1>
+    <h3>Monthly Sales Trend</h3>
+    <img src="{{ plot_url }}" alt="Sales Trend Chart">
+    <form method="POST" action="/generate_report">
+        <button type="submit">Generate Report</button>
+    </form>
+</body>
+</html>

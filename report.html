@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forecasting Report</title>
+</head>
+<body>
+    <h1>Forecasting Report</h1>
+    <h3>Model Evaluation</h3>
+    <p><strong>Mean Squared Error (MSE):</strong> {{ mse }}</p>
+    <p><strong>Mean Absolute Error (MAE):</strong> {{ mae }}</p>
+    <p><strong>Mean Absolute Percentage Error (MAPE):</strong> {{ mape }}%</p>
+    <p><strong>Forecasting Accuracy:</strong> {{ accuracy }}%</p>
+
+    <h3>Forecasted Sales</h3>
+    <ul>
+        {% for date, value in forecast.items() %}
+            <li>{{ date }}: {{ value }}</li>
+        {% endfor %}
+    </ul>
+    <br>
+    <a href="/">Back to Home</a>
+</body>
+</html>
